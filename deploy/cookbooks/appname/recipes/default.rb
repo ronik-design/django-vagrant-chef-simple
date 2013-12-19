@@ -13,7 +13,7 @@ include_recipe  "build-essential"
 include_recipe  "git"
 include_recipe  "vim"
 include_recipe  "python"
-include_recipie "wkhtmltopdf"
+include_recipe "wkhtmltopdf"
 
 # Set up production requirements
 execute "install python packages" do
